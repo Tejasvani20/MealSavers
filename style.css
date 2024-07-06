@@ -1,0 +1,478 @@
+/* Set background color for body */
+
+
+/* body{
+  background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% );background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+    } */
+    body{
+      background-color: rgb(119, 119, 207);
+    
+      
+      
+      Adjust margin for login button 
+      #login_button {
+        margin-right: 10%;
+       
+      }
+     
+      /* Style for logo */
+      #logo {
+        /* Scale logo */
+        transform: scale(0.5, 0.5);
+        background-repeat: no-repeat;
+        background-size: 230px;
+        background-position-x: 50%;
+      }
+      
+      /* Styles for top navigation links */
+      .top {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        padding-left: 6em;
+        padding-right: 1.2em;
+      }
+      
+      /* Styles for login button */
+      .login-button {
+        font-weight: 900;
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        background-color:black;
+        border-color: black;
+        color: white;
+        border-radius: 10px;
+      }
+      .nav-logo{
+        height: 50px;
+        width: 100px;
+    }
+    
+      
+      /* Styles for heading1 */
+      #heading1 {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        align-content: center;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        border-bottom: solid;
+        border-color: red;
+        padding-bottom: 15px;
+      }
+      
+      /* Styles for heading2 */
+      #heading2 {
+        color: black;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 800;
+      }
+      
+      /* Styles for donate button */
+      #donate_button {
+        text-align: center;
+        align-content: center;
+        font-size: 20px;
+        font-weight: 900;
+        height: 70px;
+        width: 200px;
+        border-color: red;
+        background-color: red;
+        color: white;
+        border-radius: 25px;
+      }
+      
+      /* Styles for donatediv */
+      #donatediv {
+        text-align: center;
+      }
+      
+      /* Styles for readmore1 */
+      .readmore1 {
+        font-weight: 900;
+        height: 40px;
+        width: 150px;
+        background-color:black;
+        border-color: black;
+        color: white;
+        border-radius: 15px;
+      }
+      
+      /* Styles for heading */
+      .heading {
+        color: black;
+      }
+      
+      /* Styles for social links */
+      #social_links {
+        text-align: center;
+        font-size: 50px;
+        color: white;
+      }
+      
+      /* Styles for font awesome icons */
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: fit-content;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      .fa-facebook {
+        background: #3b5998;
+        color: white;
+        width: 85px;
+      }
+      
+      .fa-twitter {
+        background: #55acee;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background-color: rgb(189, 28, 160);
+        color: white;
+      }
+      
+      /* Target h6 elements */
+      h6 {
+        /* Add your desired styles here */
+        font-size: 15px; /* Example font size */
+        color: black; /* Example text color */
+        font-weight: lighter; /* Example font weight */
+        /* Add more styles as needed */
+      }
+      
+      h2 {
+        /* Add your desired styles here */
+        font-size: 30px; /* Example font size */
+        color: black; /* Example text color */
+        font-weight: Bolder; /* Example font weight */
+        text-align: center;
+        /* Add more styles as needed */
+      }
+      
+      /* Styles for articles */
+      .article_1,
+      .article_2 {
+        display: inline-block;
+        background: rgba(211, 211, 211, 0.4);
+        padding: 20px; /* Adjust padding to 20px for all sides */
+        margin: 10px 100px 20px; /* Set margin for top, right, bottom */
+        width: 500px;
+        height: fit-content;
+        border-radius: 10%;
+      }
+      
+       /* Additional styles for header */
+       header:first-child {
+        /* Set flex-parent, makes direct children flex-children */
+        display: -webkit-flex;
+        display: flex;
+        /* Direct children of the header should wrap */
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* Make it pretty */
+        background: black;
+        justify-content:space-around;
+     
+        
+       
+      }
+    
+      
+      /* Styles for header navigation */
+      header nav {
+        /* As a flex child, grow and shrink as needed, use current width as base width */
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+        /* Change padding not to add to overall width */
+        box-sizing: border-box;
+        /* Set left and right padding to 10% of available space */
+        padding: 40 10%;
+        /* Make this element also a flex-parent */
+        display: -webkit-flex;
+        display: flex;
+        /* Direct children (in this case, the links) should be vertically centered inside of this element */
+        -webkit-align-items: none;
+        align-items: center;
+        /* Direct children (in this case, the links) should be horizontally centered inside of this element */
+        -webkit-justify-content: space-around;
+        justify-content: space-evenly;
+        margin-left: 100px;
+        margin-right: 100px;
+        inline-size: -50px;
+        text-align: center;
+        
+        
+      }
+      
+      /* Styles for header navigation links */
+      header nav a {
+        /* As a flex child, never ever grow and shrink, use current width as base width */
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+        /* Change padding not to add to overall width */
+        box-sizing: border-box;
+        /* Hard code width and height */
+        width: 50px;
+        height: 50px;
+        /* Add 10px of margin to top, right, bottom, and left */
+        margin: 10px;
+        /* Make it pretty */
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        /* Make this element also a flex-parent */
+        display: flex;
+        /* Direct children (in this case, the link text) should be vertically centered inside of this element */
+        align-items: center;
+      }
+      
+      .logo {
+        background-image: url("logo.jpg"); /* Path to your logo image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100px; /* Adjust width and height to fit your logo */
+        height: 100px;
+        margin-top:10px;
+        margin-left: 0.4px;
+      }
+      
+      
+      /* Styles for danger button */
+      .btn-danger {
+        transform: scale(1.5, 1.4);
+        background-color: red;
+        border: 1.5px solid red;
+        font-weight: 500;
+        position: relative;
+        transition: all 0.2s;
+        border-radius: 20%;
+  
+      }
+      
+      .btn-danger:hover {
+        transform: scale(1.5, 1.4);
+        background-color: white;
+        border: 1.5px solid white;
+        color: red;
+        font-weight: 500;
+        position: relative;
+        transition: all 0.2s;
+        box-shadow: 5px 5px 2px black;
+      }
+      
+      /* Styles for circle */
+      
+      
+     
+      
+      /* Styling for the donate button container */
+      .donate-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        width: 90%;
+        
+      }
+      
+      /* Styling for the donate button */
+      .donate-button{
+        font-weight: bold;
+        font-size: 24px; /* Increase font size */
+        padding: 15px 30px; /* Increase padding */
+        border:2px:#FFFFEA;
+        border-radius: 15px;
+        background-color:black;
+        color:white;
+        align-self: center;
+      }
+      
+      
+      /* CSS for the 'Our Mission' section */
+      
+      
+      /* Styles for articles */
+    
+
+    .mission,
+    .impact{
+        display: inline-block;
+        background: rgba(211, 211, 211, 0.4);
+        padding: 20px; /* Adjust padding to 20px for all sides */
+        margin: 10px 100px 20px; /* Set margin for top, right, bottom */
+        width: 500px;
+        height: fit-content;
+        border-radius: 10%;
+      }
+
+      
+      
+      
+      /* CSS for the FAQ section */
+      
+      
+      .q {
+        font-weight: bold;
+      }
+      
+      /* CSS for the social links */
+      #social_links {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      /* CSS for the footer */
+      footer {
+        background-color: black;
+        color: black;
+        padding: 15px;
+        margin-left: ;
+      }
+      
+      /* CSS for the font awesome icons */
+      .fa {
+        padding: 0 10px;
+        font-size: 30px;
+        color: white;
+      }
+      
+      /* CSS for the about us section */
+      #heading {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      #highlight {
+        color: red;
+      }
+      
+       #content {
+        font-size: 15px;
+        color: black;
+        font-weight: lighter;
+        font-size: 20px;
+        margin: 20px auto;
+        max-width: 1200px;
+        text-align: justify;
+      } 
+      
+      
+    
+      
+      #endline {
+        font-size: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        text-align: center;
+      }
+      
+      /* CSS for the frequently asked questions section */
+      .q {
+        font-weight: bold;
+      }
+      
+      /* CSS for the contact us section */
+      
+      .members {
+        padding: 50px 0; /* Add padding to the top and bottom of the section */
+        linear-gradient(109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% ); /* Set background color */
+        text-align: center; /* Center-align text */
+      }
+      
+      .members .heading {
+        margin-bottom: 30px; /* Add margin below the heading */
+        font-size: 36px; /* Adjust heading font size */
+      }
+      
+      .members .heading span {
+        color: #ff6b6b; /* Change color of the span text */
+      }
+      
+      .box-container {
+        display: flex;
+        justify-content: center; /* Center-align boxes horizontally */
+        flex-wrap: wrap; /* Allow boxes to wrap to the next line if needed */
+      }
+      
+      .box {
+        width: 250px; /* Set width of each box */
+        background-color: /* Set background color of each box */
+        border-radius: 10px; /* Add border radius to make boxes round */
+        padding: 20px; /* Add padding inside each box */
+        margin: 20px; /* Add margin around each box */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a lifted effect */
+        
+      }
+      
+      .box img {
+        width: 150px; /* Set width of the image */
+        height: 150px; /* Set height of the image */
+        border-radius: 50%; /* Make the image round */
+        margin-bottom: 15px; /* Add margin below the image */
+      }
+      
+      .box h3 {
+        margin-bottom: 10px; /* Add margin below the name */
+      }
+      
+      .box span {
+        color: black; /* Change color of the span text */
+        font-size: 14px; /* Adjust font size of the span text */
+      }
+      
+      .box .share {
+        margin-top: 20px; /* Add margin above the share icons */
+      }
+      
+      /*
+       .box .share a {
+        color: #555; /* Change color of the share icons */
+        margin: 0 5px; /* Add margin between the share icons */
+      }
+      
+      .share {
+        margin-top: 50px; /* Add margin above the social links */
+      }
+      
+      .share {
+        color: #555; /* Change color of the social link icons */
+        font-size: 24px; /* Adjust font size of the social link icons */
+        margin: 0 10px; /* Add margin between the social link icons */
+      }
+       */
+      
+      /* Adjustments for small screens */
+      @media screen and (max-width: 768px) {
+        .person {
+          flex: 0 0 100%; /* Each person takes up full width on small screens */
+        }
+      }
+      
+      
+      
+      
+      
+      /* CSS for the social links in the footer */
+      #social_links {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      /* CSS for the font awesome icons */
+      .fa {
+        padding: 0 10px;
+        font-size: 30px;
+        color: white;
+      }
+      
