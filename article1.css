@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(119, 119, 207);
+}
+
+/* Container */
+.container {
+  background-color: rgb(211, 211, 211, 0.9);
+  align-items: center;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+/* Top navigation links */
+.top {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-left: 1em;
+}
+
+/* Top quote and right quote */
+.top_quote {
+  background-image: url(download.jpeg);
+  display: inline-block;
+  background: rgba(211, 211, 211, 0);
+  margin-inline-start: 10px;
+  margin-right: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Heading */
+h4 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+/* Content */
+#content {
+  text-align: center;
+  align-content: center;
+  font-size: 25px;
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+/* Graph background */
+#graph {
+  background-image: url(download.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain; /* Adjust background size to contain */
+  background-position: center;
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+/* Header */
+header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: rgb(16, 14, 14);
+  padding: 10px; /* Add padding for spacing */
+}
+
+/* Header navigation */
+header nav {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  padding: 0 10px; /* Adjust padding */
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+/* Header navigation links */
+header nav a {
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+  background: linear-gradient(rgba(211, 211, 211, 0.6));
+  color: white;
+  text-decoration: none;
+  text-align: none;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  }
